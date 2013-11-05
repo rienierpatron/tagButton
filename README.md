@@ -7,9 +7,8 @@ Instructions of Using:
 1. You must be registered first to tagbond.com before using this plugin.
 2. Make sure that you have jquery script 1.8 or higher.
 3. Include <script src="js/tagButton/tagButton.js"></script> on the head of your file.
-4. Include the following codes:
+4. Include the following codes on your script:
 
-	<script>
 	    jQuery(document).ready( function($) {
 			$('.tagButton').tag({
 				id			: '', //required
@@ -18,7 +17,6 @@ Instructions of Using:
 				title		: '', //onhover title for your description of button - optional
 			});
 		});
-    </script>
 
     whereas:
 
