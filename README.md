@@ -11,7 +11,7 @@ Instructions of Using:
 
 	    jQuery(document).ready( function($) {
 			$('.tagButton').tag({
-				id			: '', //required
+				id			: '', //required tagbond ID (user or community)
 				type		: '', //1 - user; 2 - community //required
 				color		: '', //optional
 				title		: '', //onhover title for your description of button - optional
