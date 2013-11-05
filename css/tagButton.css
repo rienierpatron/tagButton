@@ -1,0 +1,19 @@
+.tagButton{
+	 width: 400px;
+    border: 4px solid red;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.tagButton img, .tagButton h3 { float: left;width:50px; }
+.tagButton img { margin-right: 15px;}
+.tagButton h3 {
+		  font-size: 18px;
+		  margin-left:-15px;
+		  margin-top:15px;
+		  font-family: 'PT Sans',Helvetica,Arial,sans-serif !important;
+		}
+.danger{
+	color:red;
+	font-weight:bold;
+}

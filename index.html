@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Tagbond Button</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link href="css/tagButton.css" rel="stylesheet">
+	</head>
+	<body>
+		<a class="tagButton"></a>
+	</body>
+	<script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/tagButton/tagButton.js"></script>
+    <script>
+    jQuery(document).ready( function($) {
+		$('.tagButton').tag({
+			id			: '62', //required
+			type		: '1', //1 - user; 2 - community //required
+			color		: ''
+		});
+	});
+    </script>
+</html>
