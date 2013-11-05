@@ -20,10 +20,10 @@ Instructions of Using:
 
     whereas:
 
-    id  - your tagbond ID that you want to use
-    type - the type of your ID, 1 for user, and 2 for community
-    color - color of text, optional
-    title - text that will show when button is hovered, optional
+    id  - your tagbond ID that you want to use,
+    type - the type of your ID (1 for user, and 2 for community),
+    color - color of text(optional),
+    title - text that will show when button is hovered(optional)
 
 =====================================================
 
