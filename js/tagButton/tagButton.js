@@ -24,6 +24,7 @@
 				$(this).css( 'color', 'red');
 			}
 			$(this).attr( 'href', "#" );
+			$(this).attr( 'title', "Click here to donate" );
 
 			$(this).click(onClick);
 		});
