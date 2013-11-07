@@ -1,4 +1,4 @@
-<h2>tagButton v1.0 - Tagbond Reward Transfer Button</h2>
+<h2>tagButton v1.0 - Tagbond Wallet Balance Transfer Button</h2>
 
 
 <h4>Instructions of Using:</h4>
