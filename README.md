@@ -1,8 +1,7 @@
-tagButton v1.0 - Tagbond Reward Transfer Button
+<h2>tagButton v1.0 - Tagbond Reward Transfer Button</h2>
 
-======================================================
 
-Instructions of Using:
+<h4>Instructions of Using:</h4>
 
 1. You must be registered first to tagbond.com before using this plugin.
 2. Make sure that you have jquery script 1.8 or higher.
@@ -26,6 +25,8 @@ Instructions of Using:
     title - text that will show when button is hovered(optional)
 
 =====================================================
+
+<h4>License</h4>
 
 The MIT License (MIT)
 
