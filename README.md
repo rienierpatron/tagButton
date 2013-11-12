@@ -1,7 +1,8 @@
-<h2>tagButton v1.0 - Tagbond Wallet Balance Transfer Button</h2>
+tagButton v1.0 - Tagbond Reward Transfer Button
 
+======================================================
 
-<h4>Instructions of Using:</h4>
+Instructions of Using:
 
 1. You must be registered first to tagbond.com before using this plugin.
 2. Make sure that you have jquery script 1.8 or higher.
@@ -10,10 +11,11 @@
 
 	    jQuery(document).ready( function($) {
 			$('.tagButton').tag({
-				id			: '', //required tagbond ID (user or community)
-				type		: '', //1 - user; 2 - community //required
+				id			: '249', //required tagbond ID (user or community)
+				tag 		: 'Donate', //optional if user wants text label on the button instead of the id
+				type		: '2', //1 - user; 2 - community //required
 				color		: '', //optional
-				title		: '', //onhover title for your description of button - optional
+				title		: 'test', //onhover title for your description of button - optional
 			});
 		});
 
@@ -25,13 +27,3 @@
     title - text that will show when button is hovered(optional)
 
 =====================================================
-
-<h4>License</h4>
-
-tagButton: Copyright (c) 2013 Rienier Patron
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
